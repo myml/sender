@@ -1,7 +1,9 @@
 package sender
 
+import "github.com/myml/sender/share"
+
 type Sender interface {
-	SendSMS() error
+	SendSMS(*share.SendSMSOption) error
 }
 
 func NewSender(s Sender) Sender {
