@@ -1,1 +1,1 @@
-module sender
+module github.com/myml/sender

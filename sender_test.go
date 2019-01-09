@@ -3,8 +3,8 @@ package sender
 import (
 	"testing"
 
-	AliCloud "sender/driver/ali-cloud"
-	SendCloud "sender/driver/send-cloud"
+	AliCloud "github.com/myml/sender/driver/ali-cloud"
+	SendCloud "github.com/myml/sender/driver/send-cloud"
 )
 
 func Test_AliCloud_SendSMS(t *testing.T) {
