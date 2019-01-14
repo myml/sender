@@ -1,6 +1,6 @@
 package sender
 
-import "github.com/myml/sender/share"
+import "bj.git.sndu.cn/deepinid/sender/share"
 
 type Sender interface {
 	SendSMS(*share.SendSMSOption) error
