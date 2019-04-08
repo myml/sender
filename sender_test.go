@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	sendcloud "bj.git.sndu.cn/deepinid/sender/send-cloud"
-	share "bj.git.sndu.cn/deepinid/sender/share"
+	sendcloud "github.com/myml/sender/send-cloud"
+	share "github.com/myml/sender/share"
 )
 
 const (

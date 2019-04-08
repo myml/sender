@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"bj.git.sndu.cn/deepinid/sender/share"
+	"github.com/myml/sender/share"
 	"github.com/pkg/errors"
 )
 
